@@ -1,0 +1,39 @@
+
+
+.project-content{
+    padding: 10rem 0;   
+}
+
+.add-div{
+    cursor: pointer;
+    background: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.add-div i{
+    margin-right: 1rem;
+    
+}
+
+table i{
+    cursor: pointer;
+}
+
+.fa-trash:before {
+    color: red;
+}
+
+.fa-edit:before {
+    color: green;
+}
+
+#add-link{
+    text-decoration: none;
+    color: #fff;
+}
+

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %} Nova Tarefa {% endblock %}
+
+{% block content %} 
+
+  <div class="row">
+    <div class="offset-1 col-lg-10 list-div">
+      <h1> Adicionar nova tarefa </h1>
+      <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" class="btn-success" value="Criar tarefa"/> 
+      </form>
+  </div>
+ 
+ {% endblock %}
